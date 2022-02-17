@@ -1,10 +1,6 @@
 {
     "name": "OnTrack",
-<<<<<<< HEAD
     "description": "An extension that helps you stuy.",
-=======
-    "description": "An exte nsion that helps you study.",
->>>>>>> e524ad63eeffb8293e7dd2f6f34f389cf141e35a
     "version": "1.0",
     "manifest_version": 3,
     "background": {
