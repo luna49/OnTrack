@@ -7,3 +7,11 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log('Default background color set to %cgrey', `color: ${color}`);
 });
 
+/* let button = document.createElement("button");
+button.innerHTML = "Click Me";
+btn.onclick = function () {
+  location.href = "to-do.html";
+};
+btn.type = "submit";
+btn.name = "to-do";
+document.body.appendChild(button); */
