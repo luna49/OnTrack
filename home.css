@@ -1,4 +1,4 @@
-button {
+body {
     height: 350px;
     width: 250px;
     outline: none;
@@ -7,7 +7,7 @@ button {
     border-radius: 2px;
   }
   
-  button.current {
+  body.current {
     box-shadow: 0 0 0 2px white,
                 0 0 0 4px black;
   }
