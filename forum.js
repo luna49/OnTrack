@@ -26,8 +26,6 @@ function searchBar() {
 
     for (let i = 0; i < posts.length; i++)  {
         tr = document.createElement("tr");
-        //{title: "A Brief History of Time", author: "Steve Hawking"}
-        // j is the property (title or author)
         for (let j in posts[i]) {
             if (posts[i].title.match(keyReg) || posts[i].author.match(keyReg)) {
                 td = document.createElement("td");
@@ -40,7 +38,6 @@ function searchBar() {
         table.appendChild(tr);
     }
 
-    //table.style.border = "2px solid";
     table.style.borderCollapse = "collapse";
     dom_table.appendChild(table);
 }
