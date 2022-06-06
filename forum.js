@@ -4,6 +4,11 @@ var posts = [
     {title: "Three tips to stop procrasinating", author: "thatonekid42", text: "I used to procrasinate a lot until..."},
 ];
 
+/**
+  * @function - searches the table for the value given in the search bar
+  * 
+  * @returns {number} the values in the chart with the searched value
+  */
 function searchBar() {
     var key = document.getElementById("key").value.toUpperCase();
     var keyReg = new RegExp(key,'i');
@@ -42,6 +47,11 @@ function searchBar() {
     dom_table.appendChild(table);
 }
 
+/**
+  * @function - clears the search result 
+  * 
+  * @returns {} the cleared table 
+  */
 function clearSearch() {
     var dom_table = document.querySelector("#result");
     dom_table.innerHTML = "";
