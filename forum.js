@@ -47,6 +47,11 @@ function searchBar() {
     dom_table.appendChild(table);
 }
 
+/**
+  * @function - clears the search result 
+  * 
+  * @returns {} the cleared table 
+  */
 function clearSearch() {
     var dom_table = document.querySelector("#result");
     dom_table.innerHTML = "";
