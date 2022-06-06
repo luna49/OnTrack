@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<button onclick="startConst()">Start Timer</button>
+<button onclick="clearFunc()">Stop Timer</button>
+
+<script>
+
+const startConst =  setInterval(functionOne, 5000);
+
+
+function clearFunc() {
+    clearInterval(startConst);
+    alert ('The Timer has been stopped');
+}
+
+function functionOne() {
+    alert ('Take a 5 minute break');
+}
+    
+
+</script>
+
+</body>
+</html>
